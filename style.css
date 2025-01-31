@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primarycolor: #2C3E50;
+    --secondarycolor: #1ABC9C;
+    --font: "Roboto", serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    /* width: 100%; */
+    background-color: var(--primarycolor);
+    font-family: var(--font);
+}
+header .heading{
+    font-size: 17px;
+    color: white;
+}
+header .heading h1{
+    font-weight: 800;
+}
+nav ul{
+    background-color: var(--primarycolor);
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    font-size: 12px;
+    background-color: var(--secondarycolor);
+    color: white;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (min-width: )and(){}
